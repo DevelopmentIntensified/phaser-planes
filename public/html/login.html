@@ -1,0 +1,140 @@
+<div style="display:none;" id="l-w-w">
+  <div class="container" id="login-wrapper">
+    <div id="login">
+      <b>Login</b>
+      <form method="post" id="logform">
+        <div id="username-w">
+          <input
+            name="username"
+            min="6"
+            max="16"
+            autocomplete="text"
+            type="test"
+            id="username"
+            class="form-control"
+            placeholder="Enter username"
+            required
+          />
+        </div>
+
+        <div id="password-w">
+          <input
+            autocomplete="current-password"
+            type="password"
+            name="password"
+            id="password"
+            min="6"
+            max="16"
+            class="form-control"
+            placeholder="Enter password"
+            required
+          />
+        </div>
+
+        <div
+          id="warn"
+          style="background:#FF7373;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);display:none;padding:5px 54px;margin:;"
+        >
+          to short
+        </div>
+
+        <label
+          >Remember me<input id="check" type="checkbox" name="remember"
+        /></label>
+        <div
+          id="button-loading-bar"
+          style="width:173px;display:none;background:rgb(194, 194, 194);height:5px;overflow-x:none;margin:auto"
+        >
+          <div
+            id="button-loading-bar-inner"
+            style="display:;background:rgb(255, 0, 0);height:5px;width:0px;"
+          ></div>
+        </div>
+
+        <button id="login-btn" class="normbtn btn" type="submit">submit</button>
+      </form>
+
+      <div id="register">
+        <button class="diffbtn btn" id="register-btn">register</button>
+      </div>
+
+      <div id="guest">
+        <button class="diffbtn btn" id="guest-btn">guest</button>
+      </div>
+    </div>
+
+    <div id="regpage">
+      <b>register</b>
+      <form id="regform">
+        <div id="email-w-r">
+          <input
+            name="email"
+            autocomplete="email"
+            type="email"
+            id="email-r"
+            class="form-control"
+            placeholder="Enter email"
+          />
+        </div>
+
+        <div
+          id="warn3"
+          style="background:#FF7373;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);display:none;padding:5px 54px;margin:;"
+        >
+          to short
+        </div>
+
+        <div id="username-w-r">
+          <input
+            name="username"
+            autocomplete="text"
+            type="test"
+            id="username-r"
+            class="form-control"
+            placeholder="Enter username"
+            required
+          />
+        </div>
+
+        <div id="password-w-r">
+          <input
+            autocomplete="current-password"
+            type="password"
+            name="password"
+            id="password-r"
+            minlength="6"
+            maxlength="16"
+            class="form-control"
+            placeholder="Enter password"
+            required
+          />
+        </div>
+
+        <div
+          id="warn2"
+          style="background:#FF7373;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);display:none;padding:5px 54px;margin:;"
+        >
+          to short
+        </div>
+
+        <label
+          >Remember me<input id="check2" type="checkbox" name="remember"
+        /></label>
+        <button id="regi" class="normbtn" type="submit">submit</button>
+      </form>
+
+      <div id="back">
+        <button style="padding:5px 70px;" class="diffbtn" id="backbtn">
+          back
+        </button>
+      </div>
+    </div>
+  </div>
+  <a
+    style="position:absolute;bottom:0px;right:0px"
+    href="http://freshworks.com/website-monitoring?utm_source=status_badge&utm_medium=status_badge"
+    ><img
+      src="https://statuspage.freshping.io/badge/111262ca-8ea5-4ac4-afe2-3679af316d41?0.8327991428864703"
+    />
+  </a>
+</div>
